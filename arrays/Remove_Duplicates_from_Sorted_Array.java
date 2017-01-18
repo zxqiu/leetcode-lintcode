@@ -1,4 +1,11 @@
 /*
+Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.
+
+Do not allocate extra space for another array, you must do this in place with constant memory.
+*/
+
+
+/*
 从第二个数字开始，把新的（不重复）的数字存到store指向的位置。
 store从第二个数字开始，每次存入新的数字便增加1。
 重复的数字会不断被覆盖，最后数组最前部分就是不重复的数字。
