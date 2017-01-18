@@ -1,3 +1,8 @@
+/*
+从第二个数字开始，把新的（不重复）的数字存到store指向的位置。
+store从第二个数字开始，每次存入新的数字便增加1。
+重复的数字会不断被覆盖，最后数组最前部分就是不重复的数字。
+*/
 public class Solution {
     /**
      ** @param A: a array of integers
