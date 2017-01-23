@@ -29,31 +29,32 @@ Thanks
 Problems:
 
 arrays:
-Kth_Largest_Element.java
-qsort.java
-Remove_Duplicates_from_Sorted_Array.java
-Maximum_Gap.java
-Remove_Duplicates_from_Sorted_Array_II.java
-Two_Sum_II.java
+Kth Largest Element
+qsort
+Remove Duplicates from Sorted Array
+Maximum Gap
+Remove Duplicates from Sorted Array II
+Two Sum II
 
 
-linked_list:
-Copy_List_with_Random_Pointer.java
-Linked_List_Cycle_I_II.java
-Merge_K_Sorted_List.java
+linked list:
+Copy List with Random Pointer
+Linked List Cycle I II
+Merge K Sorted List
 
 
 string:
-Evaluate_Reverse_Polish_Notation.java
-Palindrome_Partitioning.java
-Valid_Parentheses.java
-Length_Of_Last_Word.java
-Simplify_Path.java
-Word_Break.java
+Evaluate Reverse Polish Notation
+Palindrome Partitioning
+Palindrome Partitioning II
+Valid Parentheses
+Length Of Last Word
+Simplify Path
+Word Break
 
 
 system design:
-Consistent_Hashing_II.java
-Consistent_Hashing.java
-Memcache.java
-Mini_Twitter.java
+Consistent Hashing II
+Consistent Hashing
+Memcache
+Mini Twitter
