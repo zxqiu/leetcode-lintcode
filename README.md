@@ -61,6 +61,8 @@ Merge K Sorted List
 
 LRU Cache
 
+Remove Duplicates from Sorted List
+
 ---------------------------------------------------------
 
 string:
