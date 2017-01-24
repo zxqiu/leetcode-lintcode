@@ -36,6 +36,7 @@ Maximum Gap
 Remove Duplicates from Sorted Array II
 Two Sum II
 Triangle
+Minimum Path Sum
 
 
 linked list:
