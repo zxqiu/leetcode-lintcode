@@ -29,7 +29,7 @@ Thanks
 Problems:
 ---------------------------------------------------------
 
-arrays:
+ARRAYS:
 
 Kth Largest Element
 
@@ -53,7 +53,7 @@ Unique Paths
 
 ---------------------------------------------------------
 
-linked list:
+LINKED LIST:
 
 Copy List with Random Pointer
 
@@ -69,7 +69,7 @@ Remove Duplicates from Sorted List II
 
 ---------------------------------------------------------
 
-string:
+STRING:
 
 Evaluate Reverse Polish Notation
 
@@ -87,7 +87,7 @@ Word Break
 
 ---------------------------------------------------------
 
-system design:
+SYSTEM DESIGN:
 
 Consistent Hashing
 
