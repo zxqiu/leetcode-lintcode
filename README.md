@@ -27,6 +27,7 @@ Thanks
 =========================================================
 
 Problems:
+---------------------------------------------------------
 
 arrays:
 
@@ -48,6 +49,7 @@ Minimum Path Sum
 
 Climbing Stairs
 
+---------------------------------------------------------
 
 linked list:
 
@@ -57,6 +59,9 @@ Linked List Cycle I II
 
 Merge K Sorted List
 
+LRU Cache
+
+---------------------------------------------------------
 
 string:
 
@@ -74,6 +79,7 @@ Simplify Path
 
 Word Break
 
+---------------------------------------------------------
 
 system design:
 
@@ -89,4 +95,3 @@ Mini Cassandra
 
 Friendship Service
 
-LRU Cache
