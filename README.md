@@ -29,38 +29,64 @@ Thanks
 Problems:
 
 arrays:
+
 Kth Largest Element
+
 qsort
+
 Remove Duplicates from Sorted Array
+
 Maximum Gap
+
 Remove Duplicates from Sorted Array II
+
 Two Sum II
+
 Triangle
+
 Minimum Path Sum
+
 Climbing Stairs
 
 
 linked list:
+
 Copy List with Random Pointer
+
 Linked List Cycle I II
+
 Merge K Sorted List
 
 
 string:
+
 Evaluate Reverse Polish Notation
+
 Palindrome Partitioning
+
 Palindrome Partitioning II
+
 Valid Parentheses
+
 Length Of Last Word
+
 Simplify Path
+
 Word Break
 
 
 system design:
+
 Consistent Hashing
+
 Consistent Hashing II
+
 Memcache
+
 Mini Twitter
-Mini Cassandra.java
+
+Mini Cassandra
+
 Friendship Service
+
 LRU Cache
