@@ -35,6 +35,7 @@ Remove Duplicates from Sorted Array
 Maximum Gap
 Remove Duplicates from Sorted Array II
 Two Sum II
+Triangle
 
 
 linked list:
