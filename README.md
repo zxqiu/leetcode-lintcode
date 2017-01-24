@@ -49,6 +49,8 @@ Minimum Path Sum
 
 Climbing Stairs
 
+Unique Paths
+
 ---------------------------------------------------------
 
 linked list:
