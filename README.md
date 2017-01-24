@@ -57,3 +57,4 @@ Consistent_Hashing_II.java
 Consistent_Hashing.java
 Memcache.java
 Mini_Twitter.java
+Mini_Cassandra.java
