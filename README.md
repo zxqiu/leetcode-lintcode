@@ -94,6 +94,8 @@ Word Break
 
 Distinct Subsequence
 
+Edit Distance
+
 Word Ladder
 
 ---------------------------------------------------------
