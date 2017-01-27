@@ -59,6 +59,8 @@ Jump Game
 
 Jump Game II
 
+Largest Rectangle in Histogram
+
 ---------------------------------------------------------
 
 LINKED LIST:
