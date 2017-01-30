@@ -61,6 +61,8 @@ Jump Game II
 
 Largest Rectangle in Histogram
 
+Word Search
+
 ---------------------------------------------------------
 
 LINKED LIST:
