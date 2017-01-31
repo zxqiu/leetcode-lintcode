@@ -63,6 +63,8 @@ Largest Rectangle in Histogram
 
 Word Search
 
+Longest Consecutive Sequence
+
 ---------------------------------------------------------
 
 LINKED LIST:
