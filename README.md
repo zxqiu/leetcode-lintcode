@@ -146,3 +146,5 @@ GFS Client
 Heart Beat
 
 LRU Cache
+
+LFU Cache
