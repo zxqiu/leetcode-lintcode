@@ -123,11 +123,11 @@ public class Solution {
             ret.add(new ArrayList<Integer>(path));
             return;
         }
-        if (target < 0) {
-            return;
-        }
         
         for (int i = start; i < candidates.length; i++) {
+            if (candidates[i] > target) {
+                break;
+            }
             if (i > 0 && candidates[i] == candidates[i - 1]) {
                 continue;
             }
