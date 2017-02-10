@@ -83,6 +83,8 @@ Sort Colors
 
 Sort Colors II
 
+Maximum Rectangle
+
 ---------------------------------------------------------
 
 LINKED LIST:
