@@ -111,25 +111,25 @@ https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximum_Rectangle.
 
 ---------------------------------------------------------
 
-LINKED LIST:
+linked%20list:
 
 Copy List with Random Pointer</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/linked list/Copy_List_with_Random_Pointer.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Copy_List_with_Random_Pointer.java
 
-Linked List Cycle I II</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/linked list/linked list_Cycle_I_II.java
+linked%20list Cycle I II</br>
+https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/linked%20list_Cycle_I_II.java
 
 Merge K Sorted List</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/linked list/Merge_K_Sorted_List.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Merge_K_Sorted_List.java
 
 LRU Cache</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/linked list/LRU_Cache.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/LRU_Cache.java
 
 Remove Duplicates from Sorted List</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/linked list/Remove_Duplicates_from_Sorted_List.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Remove_Duplicates_from_Sorted_List.java
 
 Remove Duplicates from Sorted List II</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/linked list/Remove_Duplicates_from_Sorted_List_II.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Remove_Duplicates_from_Sorted_List_II.java
 
 ---------------------------------------------------------
 
@@ -180,64 +180,64 @@ https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Longest_Substring_
 
 ---------------------------------------------------------
 
-SYSTEM DESIGN:
+system%20design:
 
 Consistent Hashing</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Consistent_Hashing.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Consistent_Hashing.java
 
 Consistent Hashing II</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Consistent_Hashing_II.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Consistent_Hashing_II.java
 
 Memcache</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Memcache.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Memcache.java
 
 Mini Twitter</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Mini_Twitter.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Mini_Twitter.java
 
 Mini Cassandra</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Mini_Cassandra.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Mini_Cassandra.java
 
 Friendship Service</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Friendship_Service.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Friendship_Service.java
 
 Inverted Index</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Inverted_Index.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Inverted_Index.java
 
 Implement Trie</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Implement_Trie.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Implement_Trie.java
 
 Trie Service</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Trie_Service.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Trie_Service.java
 
 Trie Serialization</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Trie_Serialization.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Trie_Serialization.java
 
 Url Parser</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Url_Parser.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Url_Parser.java
 
 Webpage Crawler</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Webpage_Crawler.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Webpage_Crawler.java
 
 Typeahead</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Typeahead.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Typeahead.java
 
 GFS Client</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/GFS_Client.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/GFS_Client.java
 
 Heart Beat</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Heart_Beat.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Heart_Beat.java
 
 LRU Cache</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/LRU_Cache.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/LRU_Cache.java
 
 LFU Cache</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/LFU_Cache.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/LFU_Cache.java
 
 Tiny Url I II</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Tiny_Url_I_II.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Tiny_Url_I_II.java
 
 Web Logger</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Web_Logger.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Web_Logger.java
 
 Load Balancer</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/system design/Load_Balancer.java
+https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Load_Balancer.java
