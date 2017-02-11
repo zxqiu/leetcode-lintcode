@@ -33,7 +33,7 @@ Problems:
 
 ARITHMETIC:
 
-Fast Power
+Fast Power\n
 https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Fast_Power.java
 
 Sqrt(x)
