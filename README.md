@@ -48,134 +48,134 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Remove_Duplicates_from_Sorted_Array.java">Remove Duplicates from Sorted Array</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximum_Gap.java"></a>Maximum Gap</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximum_Gap.java">Maximum Gap</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Remove_Duplicates_from_Sorted_Array_II.java"></a>Remove Duplicates from Sorted Array II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Remove_Duplicates_from_Sorted_Array_II.java">Remove Duplicates from Sorted Array II</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Two_Sum_II.java"></a>Two Sum II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Two_Sum_II.java">Two Sum II</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Triangle.java"></a>Triangle</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Triangle.java">Triangle</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Minimum_Path_Sum.java"></a>Minimum Path Sum</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Minimum_Path_Sum.java">Minimum Path Sum</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Climbing_Stairs.java"></a>Climbing Stairs</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Climbing_Stairs.java">Climbing Stairs</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Unique_Paths.java"></a>Unique Paths</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Unique_Paths.java">Unique Paths</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Unique_Paths_II.java"></a>Unique Paths II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Unique_Paths_II.java">Unique Paths II</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Jump_Game.java"></a>Jump Game</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Jump_Game.java">Jump Game</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Jump_Game_II.java"></a>Jump Game II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Jump_Game_II.java">Jump Game II</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Largest_Rectangle_in_Histogram.java"></a>Largest Rectangle in Histogram</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Largest_Rectangle_in_Histogram.java">Largest Rectangle in Histogram</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Word_Search.java"></a>Word Search</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Word_Search.java">Word Search</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Longest_Consecutive_Sequence.java"></a>Longest Consecutive Sequence</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Longest_Consecutive_Sequence.java">Longest Consecutive Sequence</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Backpack_II.java"></a>Backpack II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Backpack_II.java">Backpack II</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Combination_Sum.java"></a>Combination Sum</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Combination_Sum.java">Combination Sum</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Subarray_Sum_Closest.java"></a>Subarray Sum Closest</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Subarray_Sum_Closest.java">Subarray Sum Closest</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Sort_Colors.java"></a>Sort Colors</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Sort_Colors.java">Sort Colors</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Sort_Colors_II.java"></a>Sort Colors II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Sort_Colors_II.java">Sort Colors II</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximum_Rectangle.java"></a>Maximum Rectangle</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximum_Rectangle.java">Maximum Rectangle</a></br>
 
 ---------------------------------------------------------
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/">LINKED LIST:</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Copy_List_with_Random_Pointer.java"></a>Copy List with Random Pointer</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Copy_List_with_Random_Pointer.java">Copy List with Random Pointer</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/linked%20list_Cycle_I_II.java"></a>linked%20list Cycle I II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/linked%20list_Cycle_I_II.java">linked%20list Cycle I II</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Merge_K_Sorted_List.java"></a>Merge K Sorted List</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Merge_K_Sorted_List.java">Merge K Sorted List</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/LRU_Cache.java"></a>LRU Cache</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/LRU_Cache.java">LRU Cache</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Remove_Duplicates_from_Sorted_List.java"></a>Remove Duplicates from Sorted List</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Remove_Duplicates_from_Sorted_List.java">Remove Duplicates from Sorted List</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Remove_Duplicates_from_Sorted_List_II.java"></a>Remove Duplicates from Sorted List II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Remove_Duplicates_from_Sorted_List_II.java">Remove Duplicates from Sorted List II</a></br>
 
 ---------------------------------------------------------
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/graph/">GRAPH:</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/graph/Clone_Graph.java"></a>Clone Graph</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/graph/Clone_Graph.java">Clone Graph</a></br>
 
 ---------------------------------------------------------
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/">STRING:</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Evaluate_Reverse_Polish_Notation.java"></a>Evaluate Reverse Polish Notation</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Evaluate_Reverse_Polish_Notation.java">Evaluate Reverse Polish Notation</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Palindrome_Partitioning.java"></a>Palindrome Partitioning</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Palindrome_Partitioning.java">Palindrome Partitioning</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Palindrome_Partitioning_II.java"></a>Palindrome Partitioning II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Palindrome_Partitioning_II.java">Palindrome Partitioning II</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Valid_Parentheses.java"></a>Valid Parentheses</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Valid_Parentheses.java">Valid Parentheses</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Length_Of_Last_Word.java"></a>Length Of Last Word</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Length_Of_Last_Word.java">Length Of Last Word</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Simplify_Path.java"></a>Simplify Path</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Simplify_Path.java">Simplify Path</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Break.java"></a>Word Break</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Break.java">Word Break</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Distinct_Subsequence.java"></a>Distinct Subsequence</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Distinct_Subsequence.java">Distinct Subsequence</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Edit_Distance.java"></a>Edit Distance</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Edit_Distance.java">Edit Distance</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Ladder.java"></a>Word Ladder</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Ladder.java">Word Ladder</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Ladder_II.java"></a>Word Ladder II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Ladder_II.java">Word Ladder II</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Longest_Substring_Without_Repeating_Characters.java"></a>Longest Substring Without Repeating Characters</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Longest_Substring_Without_Repeating_Characters.java">Longest Substring Without Repeating Characters</a></br>
 
 ---------------------------------------------------------
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/">SYSTEM DESIGN:</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Consistent_Hashing.java"></a>Consistent Hashing</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Consistent_Hashing.java">Consistent Hashing</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Consistent_Hashing_II.java"></a>Consistent Hashing II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Consistent_Hashing_II.java">Consistent Hashing II</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Memcache.java"></a>Memcache</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Memcache.java">Memcache</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Mini_Twitter.java"></a>Mini Twitter</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Mini_Twitter.java">Mini Twitter</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Mini_Cassandra.java"></a>Mini Cassandra</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Mini_Cassandra.java">Mini Cassandra</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Friendship_Service.java"></a>Friendship Service</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Friendship_Service.java">Friendship Service</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Inverted_Index.java"></a>Inverted Index</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Inverted_Index.java">Inverted Index</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Implement_Trie.java"></a>Implement Trie</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Implement_Trie.java">Implement Trie</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Trie_Service.java"></a>Trie Service</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Trie_Service.java">Trie Service</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Trie_Serialization.java"></a>Trie Serialization</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Trie_Serialization.java">Trie Serialization</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Url_Parser.java"></a>Url Parser</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Url_Parser.java">Url Parser</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Webpage_Crawler.java"></a>Webpage Crawler</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Webpage_Crawler.java">Webpage Crawler</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Typeahead.java"></a>Typeahead</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Typeahead.java">Typeahead</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/GFS_Client.java"></a>GFS Client</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/GFS_Client.java">GFS Client</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Heart_Beat.java"></a>Heart Beat</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Heart_Beat.java">Heart Beat</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/LRU_Cache.java"></a>LRU Cache</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/LRU_Cache.java">LRU Cache</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/LFU_Cache.java"></a>LFU Cache</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/LFU_Cache.java">LFU Cache</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Tiny_Url_I_II.java"></a>Tiny Url I II</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Tiny_Url_I_II.java">Tiny Url I II</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Web_Logger.java"></a>Web Logger</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Web_Logger.java">Web Logger</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Load_Balancer.java"></a>Load Balancer</br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Load_Balancer.java">Load Balancer</a></br>
