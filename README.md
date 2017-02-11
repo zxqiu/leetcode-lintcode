@@ -33,10 +33,10 @@ Problems:
 
 ARITHMETIC:
 
-Fast Power＜/br＞
+Fast Power</br>
 https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Fast_Power.java
 
-Sqrt(x)＜/br＞
+Sqrt(x)</br>
 https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Sqrt(x).java
 
 ---------------------------------------------------------
