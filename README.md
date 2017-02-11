@@ -33,6 +33,7 @@ Problems:
 
 ARITHMETIC:
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Fast_Power.java">Fast Power</a>
 Fast Power</br>
 https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Fast_Power.java
 
