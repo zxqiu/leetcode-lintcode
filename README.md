@@ -33,25 +33,21 @@ Problems:
 
 ARITHMETIC:
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Fast_Power.java">Fast Power</a>
-Fast Power</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Fast_Power.java
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Fast_Power.java">Fast Power</a></br>
 
-Sqrt(x)</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Sqrt(x).java
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Sqrt(x).java">Sqrt(x)</a></br>
+
 
 ---------------------------------------------------------
 
 ARRAYS:
 
-Kth Largest Element</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Kth_Largest_Element.java
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Kth_Largest_Element.java">Kth Largest Element</a></br>
 
-qsort</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/qsort.java
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/qsort.java">qsort</a></br>
 
-Remove Duplicates from Sorted Array</br>
-https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Remove_Duplicates_from_Sorted_Array.java
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Remove_Duplicates_from_Sorted_Array.java">Remove Duplicates from Sorted Array</a></br>
+
 
 Maximum Gap</br>
 https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximum_Gap.java
