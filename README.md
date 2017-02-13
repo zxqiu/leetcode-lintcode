@@ -78,6 +78,8 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Combination_Sum.java">Combination Sum</a></br>
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Combination_Sum_II.java">Combination Sum II</a></br>
+
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Subarray_Sum_Closest.java">Subarray Sum Closest</a></br>
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Sort_Colors.java">Sort Colors</a></br>
