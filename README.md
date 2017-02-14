@@ -189,3 +189,5 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Web_Logger.java">Web Logger</a></br>
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Load_Balancer.java">Load Balancer</a></br>
+
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Word_Count_(Map_Reduce).java">Word Count (Map Reduce)</a></br>
