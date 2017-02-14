@@ -54,6 +54,8 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Two_Sum_II.java">Two Sum II</a></br>
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/4Sum.java">4Sum</a></br>
+
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Triangle.java">Triangle</a></br>
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Minimum_Path_Sum.java">Minimum Path Sum</a></br>
