@@ -122,6 +122,13 @@ Problems:
 
 ---------------------------------------------------------
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/">TREE:</a></br>
+
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Minimum_Depth_of_Binary_Tree.java">Minimum Depth of Binary Tree</a></br>
+
+
+---------------------------------------------------------
+
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/">STRING:</a></br>
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Evaluate_Reverse_Polish_Notation.java">Evaluate Reverse Polish Notation</a></br>
