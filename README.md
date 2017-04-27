@@ -98,6 +98,8 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Combinations.java">Combinations</a></br>
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Digit_Counts.java">Digit Counts</a></br>
+
 ---------------------------------------------------------
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/">LINKED LIST:</a></br>
