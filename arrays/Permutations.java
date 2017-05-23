@@ -63,3 +63,53 @@ public class Solution {
         }
     }
 };
+
+/*
+
+解法二：
+使用iteration而非recursion
+
+原理是先把每个数字作为头的list放进结果list中，然后每次循环对每个子list增加一个数字，直到所有数字都被加进去。
+
+
+*/
+
+public class Solution {
+    /*
+     * @param : A list of integers.
+     * @return: A list of permutations.
+     */
+    public List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> ret = new ArrayList<List<Integer>>();
+        if (nums.length == 0) {
+            ret.add(new ArrayList<Integer>());
+            return ret;
+        }
+        
+        // initiate the result list
+        for (int num : nums) {
+            List<Integer> tmp = new ArrayList<Integer>();
+            tmp.add(num);
+            ret.add(tmp);
+        }
+        
+        for (int i = 0; i < nums.length - 1; i++) {
+            List<List<Integer>> tmpRet = new ArrayList<List<Integer>>();
+            // scan every list in result list for each number
+            for (int num : nums) {
+                for (List<Integer> list : ret) {
+                    if (list.contains(num)) {
+                        // only add new number to each list
+                        continue;
+                    }
+                    List<Integer> tmp = new ArrayList<Integer>(list);
+                    tmp.add(num);
+                    tmpRet.add(tmp);
+                }
+            }
+            ret = tmpRet;
+        }
+        
+        return ret;
+    }
+};
