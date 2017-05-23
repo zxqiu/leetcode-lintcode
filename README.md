@@ -164,6 +164,12 @@ Problems:
 
 ---------------------------------------------------------
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/stack/">STACK:</a></br>
+
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/stack/Min_Stack.java">Min Stack</a></br>
+
+---------------------------------------------------------
+
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/">SYSTEM DESIGN:</a></br>
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/Consistent_Hashing.java">Consistent Hashing</a></br>
