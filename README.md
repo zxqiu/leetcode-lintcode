@@ -132,6 +132,7 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Binary_Tree_Serialization.java">Binary Tree Serialization</a></br>
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Search_Range_in_Binary_Search_Tree.java">Search Range in Binary Search Tree</a></br>
 
 ---------------------------------------------------------
 
