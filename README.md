@@ -102,6 +102,8 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Permutations.java">Permutations</a></br>
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Permutations_II.java">Permutations II</a></br>
+
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Digit_Counts.java">Digit Counts</a></br>
 
 ---------------------------------------------------------
