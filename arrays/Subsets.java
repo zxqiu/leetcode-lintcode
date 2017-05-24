@@ -59,3 +59,46 @@ class Solution {
     }
 }
 
+
+/*
+
+解法二：
+非第归DFS
+最外层循环表示当前计算的队列长度。从长度为0的队列开始计算，一直到最大的subset长度，也就是输入数组长度。
+第二层循环遍历当前的结果队列，对其中长度与当前计算的队列长度一致的子队列，依次加入其最后一个数字后面的每一个数字，构成新的队列放入结果队列中。
+
+
+*/
+
+
+class Solution {
+ /**
+ * @param S: A set of numbers.
+ * @return: A list of lists. All valid subsets.
+ */
+    public ArrayList<ArrayList<Integer>> subsets(int[] nums) {
+        ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
+        ret.add(new ArrayList<Integer>());
+        
+        for (int i = 0; i < nums.length; i++) {
+            ArrayList<ArrayList<Integer>> tmpRet = new ArrayList<ArrayList<Integer>>(ret);
+            for (ArrayList<Integer> list : ret) {
+                if (list.size() != i) {
+                    continue;
+                }
+                for (int num : nums) {
+                    if (list.size() != 0 && num <= list.get(list.size() - 1)) {
+                        continue;
+                    }
+                    
+                    ArrayList<Integer> tmp = new ArrayList<Integer>(list);
+                    tmp.add(num);
+                    tmpRet.add(tmp);
+                }
+            }
+            ret = tmpRet;
+        }
+        
+        return ret;
+    }
+}
