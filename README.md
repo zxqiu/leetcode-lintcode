@@ -108,6 +108,10 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Subsets.java">Subsets</a></br>
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Subsets_II.java">Subsets II</a></br>
+
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Dice_Sum.java">Dice Sum</a></br>
+
 ---------------------------------------------------------
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/">LINKED LIST:</a></br>
