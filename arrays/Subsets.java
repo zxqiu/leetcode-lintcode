@@ -63,42 +63,43 @@ class Solution {
 /*
 
 解法二：
+<<<<<<< HEAD
+非第归DFS
+基本思路是把每一个数分别加入每一个已经存在于结果队列中的子队列的末尾，构成新的子队列。
+=======
 BFS
 最外层循环表示当前计算的队列长度。从长度为0的队列开始计算，一直到最大的subset长度，也就是输入数组长度。
 第二层循环遍历当前的结果队列，对其中长度与当前计算的队列长度一致的子队列，依次加入其最后一个数字后面的每一个数字，构成新的队列放入结果队列中。
+>>>>>>> f5be7e2091e3526a7a6af69bc6bd2647dc9dd48c
 
+比如输入1，2，3，
+首先加入空集：[]
+第一次循环对空集加入1：[],[1]
+第二次循环对每个子集加入2：[],[1],[2],[1,2]
+第三次循化加入3：[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]
 
 */
-
-
 class Solution {
- /**
- * @param S: A set of numbers.
- * @return: A list of lists. All valid subsets.
- */
+    /**
+     * @param S: A set of numbers.
+     * @return: A list of lists. All valid subsets.
+     */
     public ArrayList<ArrayList<Integer>> subsets(int[] nums) {
         ArrayList<ArrayList<Integer>> ret = new ArrayList<ArrayList<Integer>>();
         ret.add(new ArrayList<Integer>());
         
+        Arrays.sort(nums);
+        
         for (int i = 0; i < nums.length; i++) {
-            ArrayList<ArrayList<Integer>> tmpRet = new ArrayList<ArrayList<Integer>>(ret);
-            for (ArrayList<Integer> list : ret) {
-                if (list.size() != i) {
-                    continue;
-                }
-                for (int num : nums) {
-                    if (list.size() != 0 && num <= list.get(list.size() - 1)) {
-                        continue;
-                    }
-                    
-                    ArrayList<Integer> tmp = new ArrayList<Integer>(list);
-                    tmp.add(num);
-                    tmpRet.add(tmp);
-                }
+            int size = ret.size();
+            for (int j = 0; j < size; j++) {
+                ArrayList<Integer> tmp = new ArrayList<Integer>(ret.get(j));
+                tmp.add(nums[i]);
+                ret.add(tmp);
             }
-            ret = tmpRet;
         }
         
         return ret;
     }
 }
+
