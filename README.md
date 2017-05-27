@@ -112,6 +112,8 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Dice_Sum.java">Dice Sum</a></br>
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Dice_Sum.java">Partition Array</a></br>
+
 -------------------------------------- LINKED LIST-------------------
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/">LINKED LIST:</a></br>
