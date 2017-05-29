@@ -116,6 +116,8 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/N_Queens.java">N-Queens</a></br>
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/N_Queens_II.java">N-Queens II</a></br>
+
 -------------------------------------- LINKED LIST-------------------
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/">LINKED LIST:</a></br>
