@@ -114,6 +114,8 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Dice_Sum.java">Partition Array</a></br>
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/N_Queens.java">N-Queens</a></br>
+
 -------------------------------------- LINKED LIST-------------------
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/">LINKED LIST:</a></br>
@@ -129,8 +131,6 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Remove_Duplicates_from_Sorted_List.java">Remove Duplicates from Sorted List</a></br>
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Remove_Duplicates_from_Sorted_List_II.java">Remove Duplicates from Sorted List II</a></br>
-
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/N_Queens.java">N-Queens</a></br>
 
 -------------------------------------- GRAPH -------------------
 
