@@ -118,6 +118,8 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/N_Queens_II.java">N-Queens II</a></br>
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Search_a_2D_Matrix_II.java">Search a 2D Matrix II</a></br>
+
 -------------------------------------- LINKED LIST-------------------
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/">LINKED LIST:</a></br>
