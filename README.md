@@ -192,6 +192,8 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/stack/Min_Stack.java">Min Stack</a></br>
 
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/stack/Implement_Queue_by_Two_Stacks.java">Implement Queue by Two Stacks</a></br>
+
 -------------------------------------- SYSTEM DESIGN -------------------
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/system%20design/">SYSTEM DESIGN:</a></br>
