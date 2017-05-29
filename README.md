@@ -114,7 +114,7 @@ Problems:
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Dice_Sum.java">Partition Array</a></br>
 
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/N_Queens.java">N-Queens</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/N_Queens.java">N-Queens</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
