@@ -1,5 +1,6 @@
 # leetcode-lintcode
 =======================================================
+
 刷刷更健康
 love makes world peaceful
 
