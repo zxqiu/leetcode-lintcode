@@ -83,6 +83,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximum_Subarray_II.java">Maximum Subarray II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximum_Subarray_III.java">Maximum Subarray III</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximum_Subarray_Difference.java">Maximum Subarray Difference</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Majority_Number.java">Majority Number</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
