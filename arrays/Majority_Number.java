@@ -19,6 +19,8 @@ O(n) time and O(1) extra space
 用candidate来保存数字，并用cnt来统计该数字的数量。
 当遇到一个跟candidate相同的数字时，cnt加一，否则减一。
 当cnt等于0时，更新candidate为当前的数字，同时cnt不变。
+这样做相当于如果某一个数出现了3次，另外一个数必须出现4次才可以变更candidate。
+
 输出最后一个candidate
 
 比如输入为：	1，1，1，2，2，2，2，1，1
@@ -45,6 +47,7 @@ public class Solution {
                 cnt++;
             } else if (cnt == 0) {
                 candidate = nums.get(i);
+                cnt++;
             } else {
                 cnt--;
             }
