@@ -87,7 +87,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Majority_Number.java">Majority Number</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Majority_Number_II.java">Majority Number II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Majority_Number_III.java">Majority Number III</a></br>
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Sort_Letter_by_Case.java">Sort Letter by Case</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Sort_Letters_by_Case.java">Sort Letters by Case</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Previous_Permutation.java">Previous Permutation</a></br>
 
 -------------------------------------- LINKED LIST-------------------
