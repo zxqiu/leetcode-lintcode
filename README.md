@@ -90,6 +90,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Sort_Letters_by_Case.java">Sort Letters by Case</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Previous_Permutation.java">Previous Permutation</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Next_Permutation.java">Next Permutation</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/3_Sum.java">3 Sum</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
