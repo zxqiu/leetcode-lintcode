@@ -135,6 +135,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Longest_Substring_Without_Repeating_Characters.java">Longest Substring Without Repeating Characters</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Interleaving_String.java">Interleaving String</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Minimum_Window_Substring.java">Minimum Window Substring</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/String_to_Integer_II.java">String to Integer II</a></br>
 
 -------------------------------------- STACK -------------------
 
