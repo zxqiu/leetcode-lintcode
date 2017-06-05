@@ -95,6 +95,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/3_Sum_Closest.java">3 Sum Closest</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Search_for_a_Range.java">Search for a Range</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Search_in_Rotated_Sorted_Array.java">Search in Rotated Sorted Array</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Search_in_Rotated_Sorted_Array_II.java">Search in Rotated Sorted Array II</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
