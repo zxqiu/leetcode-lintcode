@@ -37,6 +37,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Fast_Power.java">Fast Power</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Sqrt(x).java">Sqrt(x)</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Ugly_Number_II.java">Ugly Number II</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/First_Bad_Version.java">First Bad Version</a></br>
 
 
 -------------------------------------- ARRAYS -------------------
