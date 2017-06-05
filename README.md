@@ -93,6 +93,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/3_Sum.java">3 Sum</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/4_Sum.java">4 Sum</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Search_for_a_Range.java">Search for a Range</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Search_in_Rotated_Sorted_Array.java">Search in Rotated Sorted Array</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
