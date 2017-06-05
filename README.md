@@ -126,6 +126,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Binary_Tree_Level_Order_Traversal_II.java">Binary Tree Level Order Traversal II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Binary_Tree_Zigzag_Level_Order_Traversal.java">Binary Tree Zigzag Level Order Traversal</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java">Construct Binary Tree from Inorder and Postorder Traversal</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java">Construct Binary Tree from Preorder and Inorder Traversal</a></br>
 
 -------------------------------------- STRING -------------------
 
