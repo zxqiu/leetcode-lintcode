@@ -20,7 +20,7 @@ For "ABCD" and "EACB", the LCS is "AC", return 2.
 
 
 解：
-dynanmic programing
+dynanmic programming
 
 dp[i][j]表示到A[i-1]和B[j-1]为止的最长共同子序列。
 

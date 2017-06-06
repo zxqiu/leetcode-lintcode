@@ -22,7 +22,7 @@ Time complexity O(n^2) or O(nlogn)
 
 
 解：
-dynanmic programing
+dynanmic programming
 
 dp[i]表示包含nums[i]在内的最长递增子序列。
 

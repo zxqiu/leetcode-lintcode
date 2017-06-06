@@ -15,7 +15,7 @@ return 3
 
 
 解：
-dynanmic programing
+dynanmic programming
 
 递推公式：
 dp[i]表示上到第i级台阶有几种上法。

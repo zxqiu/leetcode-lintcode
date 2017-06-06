@@ -72,7 +72,7 @@ public class Solution {
 /*
 
 方法二：
-Dynanmic Programing
+Dynanmic Programming
 时间O(n * log(n)^2)
 空间O(n)
 
