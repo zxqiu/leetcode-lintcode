@@ -151,6 +151,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Minimum_Window_Substring.java">Minimum Window Substring</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/String_to_Integer_II.java">String to Integer II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Longest_Common_Subsequence.java">Longest Common Subsequence</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Longest_Common_Prefix.java">Longest Common Prefix</a></br>
 
 -------------------------------------- STACK -------------------
 
