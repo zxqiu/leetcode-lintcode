@@ -99,6 +99,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Search_in_Rotated_Sorted_Array_II.java">Search in Rotated Sorted Array II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Median_of_two_Sorted_Arrays.java">Median of two Sorted Arrays</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Find_Peak_Element.java">Find Peak Element</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Longest_Increasing_Subsequence.java">Longest Increasing Subsequence</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
