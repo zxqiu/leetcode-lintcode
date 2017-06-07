@@ -61,6 +61,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Largest_Rectangle_in_Histogram.java">Largest Rectangle in Histogram</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Word_Search.java">Word Search</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Longest_Consecutive_Sequence.java">Longest Consecutive Sequence</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Backpack.java">Backpack</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Backpack_II.java">Backpack II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Combination_Sum.java">Combination Sum</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Combination_Sum_II.java">Combination Sum II</a></br>
