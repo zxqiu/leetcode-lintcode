@@ -135,6 +135,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java">Construct Binary Tree from Preorder and Inorder Traversal</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Binary_Search_Tree_Iterator.java">Binary Search Tree Iterator</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Remove_Node_in_Binary_Search_Tree.java">Remove Node in Binary Search Tree</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Lowest_Common_Ancestor.java">Lowest Common Ancestor</a></br>
 
 -------------------------------------- STRING -------------------
 
