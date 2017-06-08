@@ -28,11 +28,12 @@ public class Solution {
      * @return: True if it has a cycle, or false
      */
     public boolean hasCycle(ListNode head) {  
+        ListNode slow, fast;
+
         if (head == null) {
             return false;
         }
         
-        ListNode slow, fast;
         slow = head;
         fast = head.next;
         
