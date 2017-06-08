@@ -140,6 +140,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Binary_Search_Tree_Iterator.java">Binary Search Tree Iterator</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Remove_Node_in_Binary_Search_Tree.java">Remove Node in Binary Search Tree</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Lowest_Common_Ancestor.java">Lowest Common Ancestor</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Binary_Tree_Maximum_Path_Sum.java">Binary Tree Maximum Path Sum</a></br>
 
 -------------------------------------- STRING -------------------
 
