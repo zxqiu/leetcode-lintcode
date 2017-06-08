@@ -119,6 +119,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Remove_Duplicates_from_Sorted_List.java">Remove Duplicates from Sorted List</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Remove_Duplicates_from_Sorted_List_II.java">Remove Duplicates from Sorted List II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Reverse_Linked_List_II.java">Reverse Linked List II</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Sort_List.java">Sort List</a></br>
 
 -------------------------------------- GRAPH -------------------
 
