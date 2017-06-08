@@ -97,11 +97,12 @@ public class Solution {
      *           if there is no cycle, return null
      */
     public ListNode detectCycle(ListNode head) {  
+        ListNode fast, slow;
+
         if (head == null) {
             return null;
         }
         
-        ListNode fast, slow;
         fast = head.next;
         slow = head;
         
