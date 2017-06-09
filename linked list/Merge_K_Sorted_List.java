@@ -29,52 +29,49 @@ public class Solution {
      * @param lists: a list of ListNode
      * @return: The head of one sorted list.
      */
-    
-    // Divide & conquer
     public ListNode mergeKLists(List<ListNode> lists) {  
-        if (lists == null) {
+        if (lists == null || lists.size() == 0) {
             return null;
         }
-        return mergeHelper(lists, 0, lists.size() - 1);
+        
+        return divide(lists, 0, lists.size() - 1);
     }
     
-    private ListNode mergeHelper(List<ListNode> lists, int start, int end) {
-        if (start > end) {
-            return null;
-        } else if (start == end) {
+    public ListNode divide(List<ListNode> lists, int start, int end) {
+        int mid = (start + end) / 2;
+        ListNode left, right;
+        
+        if (start == end) {
             return lists.get(start);
         }
         
-        // divide
-        int mid = (start + end) / 2;
-        ListNode left = mergeHelper(lists, start, mid);
-        ListNode right = mergeHelper(lists, mid + 1, end);
+        left = divide(lists, start, mid);
+        right = divide(lists, mid + 1, end);
         
-        // conquer
-        ListNode dummy = new ListNode(0);
-        ListNode iter = dummy;
-        while (left != null && right != null) {
-            if (left.val < right.val) {
-                iter.next = left;
-                left = left.next;
+        return merge(left, right);
+    }
+    
+    private ListNode merge(ListNode a, ListNode b) {
+        ListNode store, dummy = new ListNode(0);
+        store = dummy;
+        
+        while (a != null && b != null) {
+            if (a.val > b.val) {
+                store.next = b;
+                b = b.next;
             } else {
-                iter.next = right;
-                right = right.next;
+                store.next = a;
+                a = a.next;
             }
-            iter = iter.next;
+            store = store.next;
         }
         
-        if (left != null) {
-            iter.next = left;
-        }
-        
-        if (right != null) {
-            iter.next = right;
-        }
+        store.next = (a != null) ? a : b;
         
         return dummy.next;
     }
 }
+
 
 
 
