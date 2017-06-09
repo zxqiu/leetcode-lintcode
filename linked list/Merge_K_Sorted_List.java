@@ -103,41 +103,35 @@ public class Solution {
      * @param lists: a list of ListNode
      * @return: The head of one sorted list.
      */
-     
-    private Comparator<ListNode> listComparator = new Comparator<ListNode>() {
-        public int compare(ListNode a, ListNode b) {
-            if (a == null) {
-                return 1;
-            } else if (b == null) {
-                return -1;
-            }
-            
-            return a.val - b.val;
-        }
-    };
-    
-    public ListNode mergeKLists(List<ListNode> lists) {  
+    public ListNode mergeKLists(List<ListNode> lists) {
         if (lists == null || lists.size() == 0) {
             return null;
         }
         
-        Queue<ListNode> heap = new PriorityQueue<ListNode>(lists.size(), listComparator);
-        for (ListNode head : lists) {
-            if (head != null) {
-                heap.add(head);
+        Queue<ListNode> heap = new PriorityQueue(lists.size(), nodeComparator);
+        ListNode iter, dummy = new ListNode(0);
+        
+        for (ListNode node : lists) {
+            if (node != null) {
+                heap.offer(node);
             }
         }
         
-        ListNode dummy = new ListNode(0);
-        ListNode iter = dummy;
-        while (heap.size() != 0) {
+        iter = dummy;
+        while (!heap.isEmpty()) {
             iter.next = heap.poll();
             iter = iter.next;
             if (iter.next != null) {
-                heap.add(iter.next);
+                heap.offer(iter.next);
             }
         }
         
         return dummy.next;
     }
+    
+    private Comparator<ListNode> nodeComparator = new Comparator<ListNode>() {
+        public int compare(ListNode a, ListNode b) {
+            return a.val - b.val;
+        }
+    };
 }
