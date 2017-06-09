@@ -16,8 +16,6 @@ Return a deep copy of the list.
 */
 
 
-
-
 /**
  * Definition for singly-linked list with a random pointer.
  * class RandomListNode {
@@ -32,36 +30,38 @@ public class Solution {
      * @return: A new head of a deep copy of the list.
      */
     public RandomListNode copyRandomList(RandomListNode head) {
-        Map<Integer, RandomListNode> nodeMap = new HashMap<Integer, RandomListNode>();
+        HashMap<Integer, RandomListNode> map = new HashMap<Integer, RandomListNode>();
+        RandomListNode iter, store, dummy = new RandomListNode(0);
+
+        if (head == null) {
+            return null;
+        }
         
-        RandomListNode dummy = new RandomListNode(0);
-        RandomListNode iter = dummy;
+        dummy.next = new RandomListNode(head.label);
+        store = dummy.next;
+        iter = head;
         
-        while (head != null) {
-            RandomListNode node;
-            if (nodeMap.containsKey(head.label)) {
-                node = nodeMap.get(head.label);
+        while (iter != null) {
+            if (iter.next == null) {
+                store.next = null;
             } else {
-                node = new RandomListNode(head.label);
-                nodeMap.put(node.label, node);
-            }
-            
-            // add random link
-            RandomListNode random = null;
-            if (head.random != null) {
-                if (nodeMap.containsKey(head.random.label)) {
-                    random = nodeMap.get(head.random.label);
-                } else {
-                    random = new RandomListNode(head.random.label);
-                    nodeMap.put(random.label, random);
+                if (!map.containsKey(iter.next.label)) {
+                    map.put(iter.next.label, new RandomListNode(iter.next.label));
                 }
+                store.next = map.get(iter.next.label);
             }
             
-            node.random = random;
+            if (iter.random == null) {
+                store.random = null;
+            } else {
+                if (!map.containsKey(iter.random.label)) {
+                    map.put(iter.random.label, new RandomListNode(iter.random.label));
+                }
+                store.random = map.get(iter.random.label);
+            }
             
-            iter.next = node;
+            store = store.next;
             iter = iter.next;
-            head = head.next;
         }
         
         return dummy.next;
@@ -100,36 +100,32 @@ public class Solution {
      * @return: A new head of a deep copy of the list.
      */
     public RandomListNode copyRandomList(RandomListNode head) {
-        // first, copy all nodes and insert into the original list
-        RandomListNode iter = head;
+        RandomListNode dummy, iter = head;
+        
+        /* copy */
         while (iter != null) {
-            RandomListNode node = new RandomListNode(iter.label);
-            node.next = iter.next;
-            node.random = null;
-            iter.next = node;
-            
-            iter = iter.next.next;
+            RandomListNode copy = new RandomListNode(iter.label);
+            copy.next = iter.next;
+            iter.next = copy;
+            iter = copy.next;
         }
         
-        // connect the random pointer
+        /* link random */
         iter = head;
         while (iter != null) {
-            RandomListNode node = iter.next;
+            iter.next.random = null;
             if (iter.random != null) {
-                node.random = iter.random.next;
+                iter.next.random = iter.random.next;
             }
-            
             iter = iter.next.next;
         }
         
-        // split the two list
-        RandomListNode dummy = new RandomListNode(0);
-        RandomListNode node = dummy;
-        iter = head;
-        while (iter != null) {
-            node.next = iter.next;
-            iter.next = iter.next.next;
-            node = node.next;
+        /* decouple */
+        dummy = new RandomListNode(0);
+        iter = dummy;
+        while (head != null) {
+            iter.next = head.next;
+            head = head.next.next;
             iter = iter.next;
         }
         
