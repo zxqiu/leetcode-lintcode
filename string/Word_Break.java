@@ -14,8 +14,6 @@ dp[i]表示包含s中第0~i个字符可否满足条件。
 若j遍历小于i的index之后没有满足条件的j，则dp[i]为false。
 */
 
-
-
 public class Solution {
     /**
      * @param s: A string s
@@ -23,17 +21,20 @@ public class Solution {
      */
     public boolean wordBreak(String s, Set<String> dict) {
         boolean[] dp = new boolean[s.length() + 1];
-        Set<String> set = new HashSet<String>(dict);
-        int maxDictLen = Integer.MIN_VALUE;
+        int maxLen = 0;
         
-        for (String word : set) {
-            maxDictLen = Math.max(maxDictLen, word.length());
+        if (s == null || dict == null) {
+            return false;
+        }
+        
+        for (String word : dict) {
+            maxLen = Math.max(maxLen, word.length());
         }
         
         dp[0] = true;
         for (int i = 1; i <= s.length(); i++) {
-            for (int j = i - 1; j >= 0 && i - j <= maxDictLen; j--) {
-                if (dp[j] && set.contains(s.substring(j, i))) {
+            for (int j = i - 1; j >= 0 && i - j <= maxLen; j--) {
+                if (dp[j] && dict.contains(s.substring(j, i))) {
                     dp[i] = true;
                     break;
                 }
