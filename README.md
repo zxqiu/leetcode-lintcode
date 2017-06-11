@@ -156,7 +156,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Length_Of_Last_Word.java">Length Of Last Word</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Simplify_Path.java">Simplify Path</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Break.java">Word Break</a></br>
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Distinct_Subsequence.java">Distinct Subsequence</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Distinct_Subsequences.java">Distinct Subsequences</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Edit_Distance.java">Edit Distance</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Ladder.java">Word Ladder</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Ladder_II.java">Word Ladder II</a></br>
