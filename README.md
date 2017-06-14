@@ -126,7 +126,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/graph/">GRAPH:</a></br>
 
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/graph/Clone_Graph.java">Clone Graph</a></br>
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/graph/Topological_Sorting.java">Clone Graph</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/graph/Topological_Sorting.java">Topological Sorting</a></br>
 
 -------------------------------------- TREE -------------------
 
