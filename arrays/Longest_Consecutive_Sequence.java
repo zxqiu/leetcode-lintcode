@@ -29,27 +29,32 @@ public class Solution {
      * @return an integer
      */
     public int longestConsecutive(int[] num) {
-        Set<Integer> set = new HashSet<Integer>();
+        HashSet<Integer> set = new HashSet<Integer>();
         int max = 0;
         
         for (int i : num) {
             set.add(i);
         }
         
-        for (int i : num) {
-            int up = i + 1;
-            int down = i - 1;
+        while (!set.isEmpty()) {
+            int left, right, center;
             
-            while (set.contains(up)) {
-                set.remove(up);
-                up++;
+            center = ((Integer)set.iterator().next()).intValue();
+            left = center - 1;
+            right = center + 1;
+            set.remove(center);
+            
+            while (set.contains(left)) {
+                set.remove(left);
+                left--;
             }
             
-            while (set.contains(down)) {
-                set.remove(down);
-                down--;
+            while (set.contains(right)) {
+                set.remove(right);
+                right++;
             }
-            max = Math.max(max, up - down - 1);
+            
+            max = Math.max(max, right - left - 1);
         }
         
         return max;
