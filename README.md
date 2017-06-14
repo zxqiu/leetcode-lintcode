@@ -59,7 +59,6 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Jump_Game.java">Jump Game</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Jump_Game_II.java">Jump Game II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Largest_Rectangle_in_Histogram.java">Largest Rectangle in Histogram</a></br>
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Word_Search.java">Word Search</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Longest_Consecutive_Sequence.java">Longest Consecutive Sequence</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Backpack.java">Backpack</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Backpack_II.java">Backpack II</a></br>
@@ -166,6 +165,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/String_to_Integer_II.java">String to Integer II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Longest_Common_Subsequence.java">Longest Common Subsequence</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Longest_Common_Prefix.java">Longest Common Prefix</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Search.java">Word Search</a></br>
 
 -------------------------------------- STACK -------------------
 
