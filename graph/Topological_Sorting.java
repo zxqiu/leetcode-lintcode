@@ -117,5 +117,84 @@ public class Solution {
     }
 }
 
+/*
+
+方法二：
+BFS
+
+参见Wikipedia:
+
+Kahn's algorithm[edit]
+One of these algorithms, first described by Kahn (1962), works by choosing vertices in the same order as the eventual topological sort. First, find a list of "start nodes" which have no incoming edges and insert them into a set S; at least one such node must exist in a non-empty acyclic graph. Then:
+
+L ← Empty list that will contain the sorted elements
+S ← Set of all nodes with no incoming edges
+while S is non-empty do
+    remove a node n from S
+    add n to tail of L
+    for each node m with an edge e from n to m do
+        remove edge e from the graph
+        if m has no other incoming edges then
+            insert m into S
+if graph has edges then
+    return error (graph has at least one cycle)
+else 
+    return L (a topologically sorted order)
+If the graph is a DAG, a solution will be contained in the list L (the solution is not necessarily unique). Otherwise, the graph must have at least one cycle and therefore a topological sorting is impossible.
+Reflecting the non-uniqueness of the resulting sort, the structure S can be simply a set or a queue or a stack. Depending on the order that nodes n are removed from set S, a different solution is created. A variation of Kahn's algorithm that breaks ties lexicographically forms a key component of the Coffman–Graham algorithm for parallel scheduling and layered graph drawing.
 
 
+*/
+
+/**
+ * Definition for Directed graph.
+ * class DirectedGraphNode {
+ *     int label;
+ *     ArrayList<DirectedGraphNode> neighbors;
+ *     DirectedGraphNode(int x) { label = x; neighbors = new ArrayList<DirectedGraphNode>(); }
+ * };
+ */
+public class Solution {
+    /**
+     * @param graph: A list of Directed graph node
+     * @return: Any topological order for the given graph.
+     */    
+    public ArrayList<DirectedGraphNode> topSort(ArrayList<DirectedGraphNode> graph) {
+        HashMap<DirectedGraphNode, Integer> in_cnt = new HashMap<DirectedGraphNode, Integer>();
+        ArrayList<DirectedGraphNode> ret = new ArrayList<DirectedGraphNode>();
+        Queue<DirectedGraphNode> next = new LinkedList<DirectedGraphNode>();
+        
+        countInDegree(in_cnt, graph);
+        
+        for (DirectedGraphNode node : graph) {
+            if (!in_cnt.containsKey(node)) {
+                next.offer(node);
+            }
+        }
+        
+        while (!next.isEmpty()) {
+            DirectedGraphNode node = next.poll();
+            ret.add(node);
+            
+            for (DirectedGraphNode neighbor : node.neighbors) {
+                in_cnt.put(neighbor, in_cnt.get(neighbor) - 1);
+                if (in_cnt.get(neighbor) == 0) {
+                    next.offer(neighbor);
+                }
+            }
+        }
+        
+        return ret;
+    }
+    
+    private void countInDegree(HashMap<DirectedGraphNode, Integer> in_cnt, ArrayList<DirectedGraphNode> graph) {
+        for (DirectedGraphNode node : graph) {
+            for (DirectedGraphNode neighbor : node.neighbors) {
+                if (!in_cnt.containsKey(neighbor)) {
+                    in_cnt.put(neighbor, 0);
+                }
+                in_cnt.put(neighbor, in_cnt.get(neighbor) + 1);
+            }
+        }
+    }
+}
