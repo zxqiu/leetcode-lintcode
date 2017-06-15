@@ -107,6 +107,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Single_Number_III.java">Single Number III</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Minimum_Adjustment_Cost.java">Minimum Adjustment Cost</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Rehashing.java">Rehashing</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Heapify.java">Heapify</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
