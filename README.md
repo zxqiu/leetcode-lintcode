@@ -2,7 +2,7 @@
 =======================================================
 
 刷刷更健康
-love makes world peaceful
+Nulove makes world peaceful
 
 ========================================================
 
@@ -108,6 +108,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Minimum_Adjustment_Cost.java">Minimum Adjustment Cost</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Rehashing.java">Rehashing</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Heapify.java">Heapify</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Number_of_Airplanes_in_the_Sky.java">Number of Airplanes in the Sky</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
