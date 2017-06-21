@@ -109,6 +109,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Rehashing.java">Rehashing</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Heapify.java">Heapify</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Number_of_Airplanes_in_the_Sky.java">Number of Airplanes in the Sky</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Building_Outline.java">Building Outline</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
