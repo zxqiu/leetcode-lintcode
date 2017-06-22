@@ -76,40 +76,43 @@ public class Solution {
      *          and the index of the last number
      */
     public int[] subarraySumClosest(int[] nums) {
-        TreeMap<Integer, Integer> sums = new TreeMap<>();
+        TreeMap<Integer, Integer> map = new TreeMap<Integer, Integer>();
+        Set<Integer> keys;
+        Iterator iter;
+        int[] pair = new int[2];
         int sum = 0;
+        int key;
         
-        for (int i = 1; i <= nums.length; i++) {
-            sum += nums[i - 1];
-            if (sums.containsKey(sum)) {
-                return new int[]{sums.get(sum) + 1, i - 1};
-            }
-            sums.put(sum, i - 1);
+        if (nums == null || nums.length == 0) {
+            return pair;
         }
         
-        
-        Map.Entry<Integer, Integer> lastEntry = null;
-        int[] min = new int[2];
-        int minVal = 0;
-        for (Map.Entry<Integer, Integer> entry : sums.entrySet()) {
-            if (lastEntry == null) {
-                lastEntry = entry;
-                minVal = Math.abs(entry.getKey());
-                min[0] = 0;
-                min[1] = entry.getValue();
-                continue;
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            if (map.containsKey(sum)) {
+                return new int[]{map.get(sum) + 1, i};
             }
-            
-            if (entry.getKey() - lastEntry.getKey() < minVal) {
-                minVal = entry.getKey() - lastEntry.getKey();
-                min[0] = lastEntry.getValue();
-                min[1] = entry.getValue();
-                Arrays.sort(min);
-                min[0]++;
-            }
-            lastEntry = entry;
+            map.put(sum, i);
         }
         
-        return min;
+        keys = map.keySet();
+        iter = keys.iterator();
+        key = (Integer)iter.next();
+        sum = key;
+        pair[0] = map.get(key);
+        pair[1] = map.get(key);
+        while (iter.hasNext()) {
+            int tmp = (Integer)iter.next();
+            if (tmp - key < Math.abs(sum)) {
+                sum = tmp - key;
+                pair[0] = map.get(key);
+                pair[1] = map.get(tmp);
+                Arrays.sort(pair);
+                pair[0]++;
+            }
+            key = tmp;  
+        }
+        
+        return pair;
     }
 }
