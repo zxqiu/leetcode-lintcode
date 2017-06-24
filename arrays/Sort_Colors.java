@@ -30,10 +30,8 @@ Could you come up with an one-pass algorithm using only constant space?
 two pointers
 
 使用一个left指针指向0保存的位置，right指针指向2保存的位置。
-iter指针从右向左遍历数组，遇到0就存到left位置，并右移left，遇到2就存到right位置，并左移right。若iter遇到1，则自己向左移动。直到iter和left相遇。
-两个要点：
-一，iter不应当与right指向同一个位置，否则就会原地移动。如果iter与right在一个值为2的位置相遇，那么先将iter左移一次。
-二，结束条件不是left < iter，因为left指向的是存储下一个0的位置，也就是说left指向的位置不一定为0，所以还需要处理一次。
+mid指针从左向右遍历数组，遇到0就存到left位置，并右移left，遇到2就存到right位置，并左移right。
+若mid遇到1或者小于left，则自己向右移动。
 
 */
 
@@ -44,30 +42,28 @@ class Solution {
      * @return: nothing
      */
     public void sortColors(int[] nums) {
-        int left, right, iter;
+        int left, right, mid;
+        
         left = 0;
+        mid = 0;
         right = nums.length - 1;
-        iter = nums.length - 2;
         
-        
-        while (left <= iter) {
-            if (nums[iter] == 0) {
-                int tmp = nums[left];
-                nums[left] = nums[iter];
-                nums[iter] = tmp;
-                left++;
-            } else if (nums[iter] == 2) {
-                if (iter == right) {
-                    iter--;
-                    continue;
-                }
-                int tmp = nums[right];
-                nums[right] = nums[iter];
-                nums[iter] = tmp;
-                right--;
-            } else {
-                iter--;
+        while (mid <= right) {
+            if (nums[mid] == 0) {
+                swap(nums, left++, mid);
+            } else if (nums[mid] == 2) {
+                swap(nums, right--, mid);
+            }
+            
+            if (nums[mid] == 1 || mid < left) {
+                mid++;
             }
         }
+    }
+    
+    private void swap(int[] nums, int a, int b) {
+        int tmp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = tmp;
     }
 }
