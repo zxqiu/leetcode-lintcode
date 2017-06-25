@@ -174,6 +174,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Longest_Common_Prefix.java">Longest Common Prefix</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Search.java">Word Search</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Search_II.java">Word Search II</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Regular_Expression_Matching.java">Regular Expression Matching</a></br>
 
 -------------------------------------- STACK -------------------
 
