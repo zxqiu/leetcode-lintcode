@@ -116,7 +116,6 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Find_Minimum_in_Rotated_Sorted_Array_II.java">Find Minimum in Rotated Sorted Array II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Rotate_Image.java">Rotate Image</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Set_Matrix_Zeros.java">Set Matrix Zeros</a></br>
-<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Unique_Binary_Search_Trees.java">Unique Binary Search Trees</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
@@ -155,6 +154,8 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Lowest_Common_Ancestor.java">Lowest Common Ancestor</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Binary_Tree_Maximum_Path_Sum.java">Binary Tree Maximum Path Sum</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Validate_Binary_Search_Tree.java">Validate Binary Search Tree</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Unique_Binary_Search_Trees.java">Unique Binary Search Trees</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Unique_Binary_Search_Trees_II.java">Unique Binary Search Trees II</a></br>
 
 -------------------------------------- STRING -------------------
 
