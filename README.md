@@ -116,6 +116,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Find_Minimum_in_Rotated_Sorted_Array_II.java">Find Minimum in Rotated Sorted Array II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Rotate_Image.java">Rotate Image</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Set_Matrix_Zeros.java">Set Matrix Zeros</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Burst_Balloons.java">Burst Balloons</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
