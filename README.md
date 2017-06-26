@@ -114,6 +114,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Interleaving_Positive_and_Negative_Numbers.java">Interleaving Positive and Negative Numbers</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Find_Minimum_in_Rotated_Sorted_Array.java">Find Minimum in Rotated Sorted Array</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Find_Minimum_in_Rotated_Sorted_Array_II.java">Find Minimum in Rotated Sorted Array II</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Rotate_Image.java">Rotate Image</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
