@@ -131,6 +131,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Reverse_Linked_List_II.java">Reverse Linked List II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Sort_List.java">Sort List</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Reorder_List.java">Reorder List</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Rotate_List.java">Rotate List</a></br>
 
 -------------------------------------- GRAPH -------------------
 
