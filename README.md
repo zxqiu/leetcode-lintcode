@@ -40,6 +40,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/First_Bad_Version.java">First Bad Version</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/O(1)_Check_Power_of_2.java">O(1) Check Power of 2</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Update_Bits.java">Update Bits</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Binary_Representation.java">Binary Representation</a></br>
 
 -------------------------------------- ARRAYS -------------------
 
