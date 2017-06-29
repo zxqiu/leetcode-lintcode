@@ -1,8 +1,7 @@
 # leetcode-lintcode
 =======================================================
 
-刷刷更健康
-Code makes world peaceful
+Don't let the questions limit your thoughts.
 
 ========================================================
 
@@ -119,6 +118,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Rotate_Image.java">Rotate Image</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Set_Matrix_Zeros.java">Set Matrix Zeros</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Burst_Balloons.java">Burst Balloons</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Wood_Cuts.java">Wood Cuts</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
