@@ -119,6 +119,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Set_Matrix_Zeros.java">Set Matrix Zeros</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Burst_Balloons.java">Burst Balloons</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Wood_Cut.java">Wood Cut</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Largest_Number.java">Largest Number</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
