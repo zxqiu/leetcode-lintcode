@@ -194,6 +194,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Word_Search_II.java">Word Search II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Regular_Expression_Matching.java">Regular Expression Matching</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Anagrams.java">Anagrams</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Wildcard_Matching.java">Wildcard Matching</a></br>
 
 -------------------------------------- STACK -------------------
 
