@@ -123,6 +123,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Max_Points_on_a_Line.java">Max Points on a Line</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Gas_Station.java">Gas Station</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/First_Missing_Positive.java">First Missing Positive</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Next_Permutation_II.java">Next Permutation II</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
