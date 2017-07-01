@@ -126,6 +126,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Next_Permutation_II.java">Next Permutation II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximum_Product_Subarray.java">Maximum Product Subarray</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Find_the_Missing_Number.java">Find the Missing Number</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Permutation_Index.java">Permutation Index</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
