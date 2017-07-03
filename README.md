@@ -171,6 +171,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Validate_Binary_Search_Tree.java">Validate Binary Search Tree</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Unique_Binary_Search_Trees.java">Unique Binary Search Trees</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Unique_Binary_Search_Trees_II.java">Unique Binary Search Trees II</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Segment_Tree_Build.java">Segment Tree Build</a></br>
 
 -------------------------------------- STRING -------------------
 
