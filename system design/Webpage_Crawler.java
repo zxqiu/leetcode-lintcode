@@ -34,107 +34,6 @@ You need do it with multithreading.
 
 剩下的问题就是主线程如何控制子线程退出。
 
-方法一：
-使用sleep来做结束控制。
-sleep足够的时间，保证所有URL已经处理完。
-
-*/
-
-
-
-
-/**
- * public class HtmlHelper {
- *     public static List<String> parseUrls(String url);
- *         // Get all urls from a webpage of given url.
- * }
-*/
-
-import java.util.concurrent.locks.*;
-
-public class Solution {
-    /**
-     * @param url a url of root page
-     * @return all urls
-     */
-     
-    public List<String> crawler(String url) {
-        crawlerThread[] crawlers = new crawlerThread[8];
-
-        for (int i = 1; i < crawlers.length; i++) {
-            crawlers[i] = new crawlerThread();
-            crawlers[i].start();
-        }
-        crawlers[0] = new crawlerThread(url);
-        crawlers[0].start();
-        
-        try {
-            Thread.sleep(900);
-        } catch (Exception e) {
-        }
-        
-        for (crawlerThread crawler : crawlers) {
-            crawler.stop();
-        }
-        
-        return crawlerThread.getURLPool();
-    }
-}
-
-
-class crawlerThread extends Thread {
-    private static List<String> urlPool;
-    private static int next = 0;
-    private static Set<String> included;
-    
-    private ReentrantLock lock = new ReentrantLock();
-    
-    public crawlerThread() {
-    }
-    
-    public crawlerThread(String seed) {
-        urlPool = new ArrayList<>();
-        included = new HashSet<>();
-        urlPool.add(seed);
-        included.add(seed);
-    }
-    
-    public void run() {
-        while (true) {
-            lock.lock();
-            if (urlPool == null || urlPool.isEmpty() || urlPool.size() <= next) {
-                lock.unlock();
-                continue;
-            }
-            
-            String url = urlPool.get(next++);
-            lock.unlock();
-            
-            List<String> urlList = HtmlHelper.parseUrls(url);
-            for (String u : urlList) {
-                if (included.contains(u) ||
-                    u.indexOf("wikipedia.org") == -1) {
-                    continue;
-                }
-                lock.lock();
-                urlPool.add(u);
-                included.add(u);
-                lock.unlock();
-            }
-        }
-    }
-    
-    public static List<String> getURLPool() {
-        return urlPool;
-    }
-}
-
-
-
-
-/*
-
-方法二：
 通过判断所有子线程都不在处理任何URL来作为运行结束标志。
 
 使用一个AtomicLong变量，初始化为0。当某一个子线程开始处理URL时，就把它增加1，处理完就减小1。
@@ -148,93 +47,79 @@ class crawlerThread extends Thread {
 /**
  * public class HtmlHelper {
  *     public static List<String> parseUrls(String url);
- *         // Get all urls from a webpage of given url.
+ *         // Get all urls from a webpage of given url. 
  * }
 */
 
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.atomic.AtomicLong;
 
+
 public class Solution {
     /**
      * @param url a url of root page
      * @return all urls
      */
-     
-    public List<String> crawler(String url) {
-        crawlerThread[] crawlers = new crawlerThread[8];
-
-        for (int i = 1; i < crawlers.length; i++) {
-            crawlers[i] = new crawlerThread();
-            crawlers[i].start();
-        }
-        crawlers[0] = new crawlerThread(url);
-        crawlers[0].start();
-        
-        while (!crawlerThread.getFinished()) {
-            continue;
-        }
-        
-        for (crawlerThread crawler : crawlers) {
-            crawler.stop();
-        }
-        
-        return crawlerThread.getURLPool();
-    }
-}
-
-
-class crawlerThread extends Thread {
+    
+    
+    Set<String> urls;
+    Queue<String> urlPool;
+    ReentrantLock lock;
     private static AtomicLong finished = new AtomicLong(0);
-    private static List<String> urlPool;
-    private static int next = 0;
-    private static Set<String> included;
     
-    private ReentrantLock lock = new ReentrantLock();
-
-    public crawlerThread() {
+    public List<String> crawler(String url) {
+        urls = new HashSet<String>();
+        urlPool = new LinkedList<String>();
+        lock = new ReentrantLock();
+        CrawlerThread[] workers = new CrawlerThread[16];
+        
+        urlPool.offer(url);
+        for (int i = 0; i < workers.length; i++) {
+            workers[i] = new CrawlerThread();
+            workers[i].start();
+        }
+        
+        while (!isAllFinished() || urlPool.size() != 0);
+        
+        return new ArrayList<String>(urls);
     }
     
-    public crawlerThread(String seed) {
-        urlPool = new ArrayList<>();
-        included = new HashSet<>();
-        urlPool.add(seed);
-        included.add(seed);
-
-    }
-    
-    public void run() {
-        while (true) {
-            lock.lock();
-            if (urlPool == null || urlPool.isEmpty() || urlPool.size() <= next) {
-                lock.unlock();
-                continue;
-            }
-            
-            finished.incrementAndGet();
-            String url = urlPool.get(next++);
-            lock.unlock();
-            
-            List<String> urlList = HtmlHelper.parseUrls(url);
-            for (String u : urlList) {
-                if (included.contains(u) ||
-                    u.indexOf("wikipedia.org") == -1) {
-                    continue;
+    private class CrawlerThread extends Thread {
+        public void run() {
+            while (true) {
+                String url = null;
+                try {
+                    lock.lock();
+                    if (urlPool.size() == 0) {
+                        if (isAllFinished()) {
+                            break;
+                        }
+                        continue;
+                    }
+                    
+                    url = urlPool.poll();
+                    if (urls.contains(url)) {
+                        continue;
+                    }
+                } finally {
+                    lock.unlock();
                 }
-                lock.lock();
-                urlPool.add(u);
-                included.add(u);
-                lock.unlock();
+                
+                if (url != null) {
+                    finished.incrementAndGet();
+                    urls.add(url);
+                    for (String s : HtmlHelper.parseUrls(url)) {
+                        if (s.indexOf("wikipedia.org") >= 0) {
+                            urlPool.offer(s);
+                        }
+                    }
+                    finished.decrementAndGet();
+                }
             }
-            finished.decrementAndGet();
         }
     }
     
-    public static List<String> getURLPool() {
-        return urlPool;
-    }
-    
-    public static boolean getFinished() {
+    public static boolean isAllFinished() {
         return (finished.get() == 0);
     }
 }
