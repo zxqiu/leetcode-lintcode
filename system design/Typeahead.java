@@ -29,67 +29,55 @@ Trie Tree如何实现请参考Implement Trie和Trie Service。
 
 
 public class Typeahead {
-    private class TrieNode {
-        Map<Character, TrieNode> children;
+    private class TreeNode {
         Set<String> tops;
-        TrieNode() {
-            children = new HashMap<Character, TrieNode>();
+        Map<Character, TreeNode> neighbors;
+        public TreeNode() {
             tops = new HashSet<String>();
+            neighbors = new HashMap<Character, TreeNode>();
         }
     }
     
-    TrieNode root;
-    
-    private void insert(String word, String s) {
-        if (word.length() == 0) {
-            return;
-        }
-        
-        TrieNode iter = root;
-        for (char c : word.toCharArray()) {
-            if (!iter.children.containsKey(c)) {
-                iter.children.put(c, new TrieNode());
-            }
-            iter = iter.children.get(c);
-            if (!iter.tops.contains(s)) {
-                iter.tops.add(s);
-            }
-        }
-        
-        insert(word.substring(1, word.length()), s);
-    }
+    TreeNode root;
     
     // @param dict A dictionary of words dict
     public Typeahead(Set<String> dict) {
-        root = new TrieNode();
-        for (String s : dict) {
-            insert(s, s);
-        }
+        root = buildTree(dict);
     }
 
     // @param str: a string
     // @return a list of words
     public List<String> search(String str) {
-        List<String> ret = new ArrayList<String>();
-        TrieNode iter = root;
+        TreeNode next = root;
         
-        // search for the str in Trie
-        for (int i = 0; i < str.length(); i++) {
-            char c = str.charAt(i);
-            if (!iter.children.containsKey(c)) {
-                iter = null;
-                break;
+        for (char c : str.toCharArray()) {
+            if (!next.neighbors.containsKey(c)) {
+                return new ArrayList<String>();
             }
-            iter = iter.children.get(c);
-        }
-
-        if (iter != null) {
-            // str found
-            for (String s : iter.tops) {
-                ret.add(s);
-            }
+            next = next.neighbors.get(c);
         }
         
-        return ret;
+        return new ArrayList<String>(next.tops);
+    }
+    
+    private TreeNode buildTree(Set<String> dict) {
+        TreeNode _root = new TreeNode();
+        
+        for (String word : dict) {
+            for (int i = 0; i < word.length(); i++) {
+                TreeNode next = _root;
+                String subWord = word.substring(i);
+                for (char c : subWord.toCharArray()) {
+                    if (!next.neighbors.containsKey(c)) {
+                        next.neighbors.put(c, new TreeNode());
+                    }
+                    
+                    next = next.neighbors.get(c);
+                    next.tops.add(word);
+                }
+            }
+        }
+        
+        return _root;
     }
 }
