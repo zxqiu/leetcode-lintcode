@@ -181,6 +181,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Interval_Sum.java">Interval Sum</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Interval_Sum_II.java">Interval Sum II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Count_of_Smaller_Number.java">Count of Smaller Number</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Count_of_Smaller_Number_before_itself.java">Count of Smaller Number before itself</a></br>
 
 -------------------------------------- STRING -------------------
 
