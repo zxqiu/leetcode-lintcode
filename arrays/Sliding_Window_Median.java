@@ -25,6 +25,8 @@ O(nlog(n)) time
 
 
 解：
+
+方法一：
 要求median，可以使用max，min heap的方法。
 把大于median的所有数放进一个min heap，所有小于等于median的数放进一个max heap。
 然后平衡两个heap中数字的数量，保证max heap的第一个值为median。
