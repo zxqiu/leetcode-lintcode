@@ -132,6 +132,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Trapping_Rain_Water.java">Trapping Rain Water</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Trapping_Rain_Water_II.java">Trapping Rain Water II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Sliding_Window_Maximum.java">Sliding Window Maximum</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Convert_Expression_to_Reverse_Polish_Notation.java">Convert Expression to Reverse Polish Notation</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
