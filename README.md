@@ -135,6 +135,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Convert_Expression_to_Reverse_Polish_Notation.java">Convert Expression to Reverse Polish Notation</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Expression_Evaluation.java">Expression Evaluation</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Spiral_Matrix.java">Spiral Matrix</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Spiral_Matrix_II.java">Spiral Matrix II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Reorder_array_to_construct_the_minimum_number.java">Reorder array to construct the minimum number</a></br>
 
 -------------------------------------- LINKED LIST-------------------
