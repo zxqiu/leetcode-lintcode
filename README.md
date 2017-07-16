@@ -153,6 +153,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Rotate_List.java">Rotate List</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Add_Two_Numbers_II.java">Add Two Numbers II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Palindrome_Linked_List.java">Palindrome Linked List</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/linked%20list/Intersection_of_Two_Linked_Lists.java">Intersection of Two Linked Lists</a></br>
 
 -------------------------------------- GRAPH -------------------
 
