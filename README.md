@@ -135,6 +135,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Convert_Expression_to_Reverse_Polish_Notation.java">Convert Expression to Reverse Polish Notation</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Expression_Evaluation.java">Expression Evaluation</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Spiral_Matrix.java">Spiral Matrix</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Convert_Binary_Search_Tree_to_Doubly_Linked_List.java">Convert Binary Search Tree to Doubly Linked List</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
