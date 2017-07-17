@@ -139,6 +139,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Reorder_array_to_construct_the_minimum_number.java">Reorder array to construct the minimum number</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Triangle_Count.java">Triangle Count</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Container_With_Most_Water.java">Container With Most Water</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/The_Smallest_Difference.java">The Smallest Difference</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
