@@ -141,6 +141,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Container_With_Most_Water.java">Container With Most Water</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/The_Smallest_Difference.java">The Smallest Difference</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Permutation_Sequence.java">Permutation Sequence</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/House_Robber.java">House Robber</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
