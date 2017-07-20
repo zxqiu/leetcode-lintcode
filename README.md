@@ -143,6 +143,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Permutation_Sequence.java">Permutation Sequence</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/House_Robber.java">House Robber</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Coins_in_a_Line.java">Coins in a Line</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Coins_in_a_Line_II.java">Coins in a Line II</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
