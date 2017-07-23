@@ -145,6 +145,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/House_Robber.java">House Robber</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Coins_in_a_Line.java">Coins in a Line</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Coins_in_a_Line_II.java">Coins in a Line II</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Kth_Smallest_Number_in_Sorted_Matrix.java">Kth Smallest Number in Sorted Matrix</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
