@@ -147,6 +147,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Coins_in_a_Line_II.java">Coins in a Line II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Kth_Smallest_Number_in_Sorted_Matrix.java">Kth Smallest Number in Sorted Matrix</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Continuous_Subarray_Sum.java">Continuous Subarray Sum</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Minimum_Size_Subarray_Sum.java">Minimum Size Subarray Sum</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Submatrix_Sum.java">Submatrix Sum</a></br>
 
 -------------------------------------- LINKED LIST-------------------
