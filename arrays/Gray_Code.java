@@ -24,8 +24,6 @@ Challenge
 O(2n) time.
 
 解：
-以下所有方法时间复杂度都为O(n^2)
-
 方法一：
 数字i的格雷码为：(i>>1)^i
 n bit的最大数字max为pow(2, n)-1。
