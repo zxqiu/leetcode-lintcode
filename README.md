@@ -41,6 +41,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Update_Bits.java">Update Bits</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Binary_Representation.java">Binary Representation</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Delete_Digits.java">Delete Digits</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Gray_Code.java">Gray Code</a></br>
 
 -------------------------------------- ARRAYS -------------------
 
