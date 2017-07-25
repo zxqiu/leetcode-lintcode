@@ -138,6 +138,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Continuous_Subarray_Sum.java">Continuous Subarray Sum</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Minimum_Size_Subarray_Sum.java">Minimum Size Subarray Sum</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Submatrix_Sum.java">Submatrix Sum</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Candy.java">Candy</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
