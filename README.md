@@ -30,6 +30,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Binary_Representation.java">Binary Representation</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Delete_Digits.java">Delete Digits</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Gray_Code.java">Gray Code</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Valid_Number.java">Valid Number</a></br>
 
 -------------------------------------- ARRAYS -------------------
 
