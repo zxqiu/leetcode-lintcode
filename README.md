@@ -229,6 +229,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Longest_Substring_Without_Repeating_Characters.java">Longest Substring Without Repeating Characters</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Longest_Substring_with_At_Most_K_Distinct_Characters.java">Longest Substring with At Most K Distinct Characters</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Letter_Combinations_of_a_Phone_Number.java">Letter Combinations of a Phone Number</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Restore_IP_Address.java">Restore IP Address</a></br>
 
 -------------------------------------- STACK -------------------
 
