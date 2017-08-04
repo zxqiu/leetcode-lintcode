@@ -31,6 +31,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Delete_Digits.java">Delete Digits</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Gray_Code.java">Gray Code</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Valid_Number.java">Valid Number</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Roman_to_Integer.java">Roman to Integer</a></br>
 
 -------------------------------------- ARRAYS -------------------
 
