@@ -142,6 +142,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Minimum_Size_Subarray_Sum.java">Minimum Size Subarray Sum</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Submatrix_Sum.java">Submatrix Sum</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Candy.java">Candy</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximal_Square.java">Maximal Square</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
