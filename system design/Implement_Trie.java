@@ -44,12 +44,12 @@ startsWith("linterror")
  * trie.startsWith("lint"); will return true
  */
 class TrieNode {
-    char val;
-    HashMap<Character, TrieNode> children;
+    // Initialize your data structure here.
+    HashMap<Character, TrieNode> neighbors;
     boolean hasWord;
-    public TrieNode(char val) {
-        this.val = val;
-        children = new HashMap<Character, TrieNode>();
+    
+    public TrieNode() {
+        neighbors = new HashMap<Character, TrieNode>();
         hasWord = false;
     }
 }
@@ -58,51 +58,51 @@ public class Trie {
     private TrieNode root;
 
     public Trie() {
-        root = new TrieNode('#');
+        root = new TrieNode();
     }
 
     // Inserts a word into the trie.
     public void insert(String word) {
-        TrieNode iter = root;
+        TrieNode node = root;
+        
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
-            if (!iter.children.containsKey(c)) {
-                iter.children.put(c, new TrieNode(c));
+            
+            if (!node.neighbors.containsKey(c)) {
+                node.neighbors.put(c, new TrieNode());
             }
-            iter = iter.children.get(c);
+
+            node = node.neighbors.get(c);
         }
-        iter.hasWord = true;
+        
+        node.hasWord = true;
     }
 
     // Returns if the word is in the trie.
     public boolean search(String word) {
-        TrieNode iter = findStrPos(word);
+        TrieNode node = traceWord(word);
         
-        if (iter != null && iter.hasWord) {
-            return true;
-        } else {
-            return false;
-        }
+        return (node == null) ? false : node.hasWord;
     }
 
     // Returns if there is any word in the trie
     // that starts with the given prefix.
     public boolean startsWith(String prefix) {
-        TrieNode iter = findStrPos(prefix);
-        if (iter != null) {
-            return true;
-        }
-        return false;
+        return traceWord(prefix) != null;
     }
     
-    public TrieNode findStrPos(String s) {
-        TrieNode iter = root;
-        for (int i = 0; i < s.length(); i++) {
-            if (iter.children.isEmpty() || !iter.children.containsKey(s.charAt(i))) {
+    private TrieNode traceWord(String word) {
+        TrieNode node = root;
+        
+        for (int i = 0; i < word.length(); i++) {
+            char c = word.charAt(i);
+            if (!node.neighbors.containsKey(c)) {
                 return null;
             }
-            iter = iter.children.get(s.charAt(i));
+            
+            node = node.neighbors.get(c);
         }
-        return iter;
+        
+        return node;
     }
 }
