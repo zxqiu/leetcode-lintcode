@@ -144,6 +144,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Candy.java">Candy</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Maximal_Square.java">Maximal Square</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Copy_Books.java">Copy Books</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Surrounded_Regions.java">Surrounded Regions</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
