@@ -49,25 +49,25 @@ public class Solution {
             return 0;
         }
         
-        int matrixHeight = matrix.length;
-        int matrixWidth = matrix[0].length;
-        int[] height = new int[matrixWidth];
         int max = 0;
+        int m = matrix.length;
+        int n = matrix[0].length;
+        int[] h = new int[n];
         
-        for (int i = 0; i < matrixHeight; i++) {
-            for (int j = 0; j < matrixWidth; j++) {
-                height[j] = matrix[i][j] ? height[j] + 1 : 0;
-            }
+        for (int i = 0; i < m; i++) {
+            Stack<Integer> st = new Stack<Integer>();
             
-            // calculate Largest Rectangle in Histogram
-            Stack<Integer> st = new Stack<>();
-            for (int j = 0; j <= matrixWidth; j++) {
-                while (!st.isEmpty() && (j == matrixWidth || height[j] <= height[st.peek()])) {
-                    int idx = st.pop();
-                    int h = height[idx];
-                    int w = st.isEmpty() ? j : j - st.peek() - 1;
-                    max = Math.max(max, h * w);
+            for (int j = 0; j <= n; j++) {
+                if (j < n) {
+                    h[j] = matrix[i][j] ? h[j] + 1 : 0;
                 }
+                
+                while (!st.isEmpty() && (j == n || h[st.peek()] > h[j])) {
+                    int idx = st.pop();
+                    int w = st.isEmpty() ? j : j - st.peek() - 1;
+                    max = Math.max(h[idx] * w, max);
+                }
+                
                 st.push(j);
             }
         }
