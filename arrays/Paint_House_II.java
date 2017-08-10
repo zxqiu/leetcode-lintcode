@@ -22,6 +22,11 @@ Could you solve it in O(nk)?
 
 
 解：
+Dynanmic Programming
+
+本质与Paint House一样，还是DP。参照：
+https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Paint_House.java
+
 每个房子的计算只需要知道上一个房子的最小值和次小值即可。
 
 对于每栋房子的每种颜色而言，若该颜色与上一栋房子的最小值对应的颜色不一样，那么上一栋房子就可以涂成最小值对应的颜色。
