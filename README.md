@@ -149,6 +149,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Surrounded_Regions.java">Surrounded Regions</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Wiggle_Sort.java">Wiggle Sort</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Paint_House.java">Paint House</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Paint_House_II.java">Paint House II</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
