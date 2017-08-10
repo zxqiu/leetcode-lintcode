@@ -148,6 +148,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Copy_Books.java">Copy Books</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Surrounded_Regions.java">Surrounded Regions</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Wiggle_Sort.java">Wiggle Sort</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Paint_House.java">Paint House</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
