@@ -32,6 +32,9 @@ dp[i][j] = min(dp[i][p], dp[i][q]) + costs[i-1][j], j=0~2,p=0~2,q=0~2, j!=p,j!=q
 涂0栋房子时，任何颜色都不需要花钱。
 故dp[0][0~2]=0
 
+
+计算完成后，取最后一栋房子最便宜的颜色即可。
+
 */
 
 public class Solution {
