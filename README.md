@@ -24,6 +24,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Fast_Power.java">Fast Power</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Sqrt(x).java">Sqrt(x)</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Ugly_Number_II.java">Ugly Number II</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Super_Ugly_Number.java">Super Ugly Number</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/First_Bad_Version.java">First Bad Version</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/O(1)_Check_Power_of_2.java">O(1) Check Power of 2</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arithmetic/Update_Bits.java">Update Bits</a></br>
