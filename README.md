@@ -59,6 +59,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Longest_Consecutive_Sequence.java">Longest Consecutive Sequence</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Backpack.java">Backpack</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Backpack_II.java">Backpack II</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Backpack_II.java">Backpack VI</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Combination_Sum.java">Combination Sum</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Combination_Sum_II.java">Combination Sum II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Subarray_Sum_Closest.java">Subarray Sum Closest</a></br>
