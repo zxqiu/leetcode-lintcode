@@ -22,6 +22,8 @@ Time complexity O(n^2) or O(nlogn)
 
 
 解：
+
+方法一：
 dynanmic programming
 
 dp[i]表示包含nums[i]在内的最长递增子序列。
@@ -65,3 +67,61 @@ public class Solution {
     }
 }
 
+
+
+/*
+
+方法二：
+使用一个List来保存LIS。最后返回list的长度就是LIS长度。
+
+假设如果整个输入数组是增序，那么每访问到一个数，只需要把这个数加入list即可。
+
+假设如果输入是乱序，每访问到一个数nums[i]时：
+1.如果list中没有数，直接加入list。
+2.如果list中有数：
+    1）nums[i]大于list中的最后一个数，也就是大于最大的数字，说明该数字可以与输入数组中i之前的LIS组成新的LIS，应当插入list末尾。
+    2）nums[i]小于等于list中最后一个数，二分法找出并替换list中第一个大于nums[i]的数nums[j]，这样相当于nums[i]可以加入j之前的LIS。
+
+这样相当于同时统计多个IS，最后list中虽然可能不是某一个IS，但是长度一定与LIS相同。
+
+*/
+
+
+public class Solution {
+    /**
+     * @param nums: The integer array
+     * @return: The length of LIS (longest increasing subsequence)
+     */
+    public int longestIncreasingSubsequence(int[] nums) {
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        int max = 0;
+        
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        
+        for (int i = 0; i < nums.length; i++) {
+            int left = 0;
+            int right = list.size();
+            int target = nums[i];
+            
+            while (left < right) {
+                int mid = (left + right) / 2;
+                
+                if (list.get(mid) < target) {
+                    left = mid + 1;
+                } else {
+                    right = mid;
+                }
+            }
+            
+            if (right == list.size()) {
+                list.add(target);
+            } else {
+                list.set(right, target);
+            }
+        }
+        
+        return list.size();
+    }
+}
