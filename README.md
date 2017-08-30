@@ -156,6 +156,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Paint_House_II.java">Paint House II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Flatten_Nested_List_Iterator.java">Flatten Nested List Iterator</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Reverse_Pairs.java">Reverse Pairs</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Russian_Doll_Envelopes.java">Russian Doll Envelopes</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
