@@ -158,6 +158,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Reverse_Pairs.java">Reverse Pairs</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Russian_Doll_Envelopes.java">Russian Doll Envelopes</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Frog_Jump.java">Frog Jump</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Find_the_Duplicate_Number.java">Find the Duplicate Number</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
