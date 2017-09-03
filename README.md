@@ -218,6 +218,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Count_of_Smaller_Number_before_itself.java">Count of Smaller Number before itself</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Expression_Tree_Build.java">Expression Tree Build</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Convert_Binary_Search_Tree_to_Doubly_Linked_List.java">Convert Binary Search Tree to Doubly Linked List</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/tree/Minimum_Spanning_Tree.java">Minimum Spanning Tree</a></br>
 
 -------------------------------------- STRING -------------------
 
