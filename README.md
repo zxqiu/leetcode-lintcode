@@ -257,6 +257,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Scramble_String.java">Scramble String</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Add_and_Search_Word.java">Add and Search Word</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Expression_Expand.java">Expression Expand</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Edit_Distance_II.java">Edit Distance II</a></br>
 
 -------------------------------------- STACK -------------------
 
