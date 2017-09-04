@@ -258,6 +258,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Add_and_Search_Word.java">Add and Search Word</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Expression_Expand.java">Expression Expand</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Edit_Distance_II.java">Edit Distance II</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/System_Longest_File_Path">System Longest File Path</a></br>
 
 -------------------------------------- STACK -------------------
 
