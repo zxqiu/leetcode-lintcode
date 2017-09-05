@@ -259,6 +259,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Expression_Expand.java">Expression Expand</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Edit_Distance_II.java">Edit Distance II</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/System_Longest_File_Path.java">System Longest File Path</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/string/Add_Operators.java">Add Operators</a></br>
 
 -------------------------------------- STACK -------------------
 
