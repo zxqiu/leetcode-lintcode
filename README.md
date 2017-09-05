@@ -160,6 +160,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Frog_Jump.java">Frog Jump</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Find_the_Duplicate_Number.java">Find the Duplicate Number</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/132_Pattern.java">132 Pattern</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Insert_Delete_GetRandom_O(1).java">Insert Delete GetRandom O(1)</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
