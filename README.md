@@ -163,6 +163,7 @@ Problems:
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Insert_Delete_GetRandom_O(1).java">Insert Delete GetRandom O(1)</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Range_Sum_Query_2D-Immutable.java">Range Sum Query 2D - Immutable</a></br>
 <a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Guess_Number_Game_II.java">Guess Number Game II</a></br>
+<a href="https://github.com/zxqiu/leetcode-lintcode/blob/master/arrays/Create_Maximum_Number.java">Create Maximum Number</a></br>
 
 -------------------------------------- LINKED LIST-------------------
 
